@@ -23,6 +23,7 @@ function increment(){
 function save(){
 let countStr = count + " _ "
 saveEL.textContent += countStr
+
 countEL.textContent = 0
 count = 0
 }
